@@ -5,12 +5,23 @@
   
  /* Mobile First (col-*) */
 .col-12 {width: 100%;}
+.menu.responsive {position: relative;}
+.menu.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.menu.responsive a {
+  display: block;
+  text-align: left;
+}
 .menu > a {
     display: none;
 }
 .menu a:nth-child(4) {
     display: initial;
 }
+
 
 /* Desktop 901px */
 @media screen and (min-width: 901px) {
@@ -66,10 +77,8 @@ h2 {
 .project > button{
     border: none;
     background-color: #C0C0C0;
-    font-size: larger;
-    padding: 3px;
+    padding: 7px;
 }
-
 .row {
     display: flex;
     flex-wrap: wrap;
