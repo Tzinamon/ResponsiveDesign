@@ -75,3 +75,16 @@ h2 {
     flex-wrap: wrap;
   }
 /* footer */
+footer {
+    background-color: black;
+    color:white;
+    font-size: smaller;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+footer > a {
+    color:white;
+}
+
