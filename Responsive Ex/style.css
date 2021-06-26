@@ -8,12 +8,23 @@
 .menu.responsive {position: relative;}
 .menu.responsive a.icon {
   position: absolute;
-  right: 0;
-  top: 0;
-}
+
+ }
 .menu.responsive a {
   display: block;
   text-align: left;
+  background-color: black;
+}
+.menu.responsive {
+    display: block;
+    position: absolute;
+    right: 9px;
+    top: 40px;
+    width: 70px;
+    height: 100px;
+    text-align: left;
+    
+
 }
 .menu > a {
     display: none;
